@@ -1,7 +1,10 @@
+/* 갈무리11 폰트 불러오기 */
+@import url('https://fastly.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
 body {
   background-color: #fffbea;
   color: #000;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Galmuri', 'Press Start 2P', cursive; /* 갈무리11 폰트 우선 적용 */
   margin: 0;
   padding: 0;
 }
