@@ -1,47 +1,44 @@
-<head>
-  <!-- 갈무리11 웹폰트 불러오기 -->
-  <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css">
-  <style>
-    body {
-      background-color: #fffbea;
-      color: #000;
-      font-family: 'Galmuri', 'Press Start 2P', cursive; /* 갈무리11 폰트 적용 */
-      margin: 0;
-      padding: 0;
-    }
+/* 갈무리11 웹폰트 불러오기 */
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
 
-    header {
-      background-color: #ffeb3b;
-      padding: 1em;
-      text-align: center;
-    }
+body {
+  background-color: #fffbea;
+  color: #000;
+  font-family: 'Galmuri11', sans-serif; /* 갈무리11 폰트 정확하게 적용 */
+  margin: 0;
+  padding: 0;
+}
 
-    nav a {
-      margin: 0 10px;
-      color: #000;
-      text-decoration: none;
-    }
+header {
+  background-color: #ffeb3b;
+  padding: 1em;
+  text-align: center;
+}
 
-    main {
-      padding: 2em;
-    }
+nav a {
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+}
 
-    section {
-      margin-bottom: 2em;
-      padding: 1em;
-      background-color: #fff4c2;
-      border: 2px dashed #ccc;
-      border-radius: 10px;
-    }
+main {
+  padding: 2em;
+}
 
-    h1, h2 {
-      margin-top: 0;
-    }
+section {
+  margin-bottom: 2em;
+  padding: 1em;
+  background-color: #fff4c2;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+}
 
-    footer {
-      text-align: center;
-      padding: 1em;
-      background-color: #ffeb3b;
-    }
-  </style>
-</head>
+h1, h2 {
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #ffeb3b;
+}
